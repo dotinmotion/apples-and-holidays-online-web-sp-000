@@ -29,13 +29,13 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     holiday.each do |key, value|
       if key == :christmas || :new_years
         value.each do |supply|
-          puts "Balloons"
+          supply << "Balloons"
         #binding.pry
       end
       end
     end
   end
-  holiday_hash
+  #holiday_hash
 end
 
 
